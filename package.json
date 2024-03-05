@@ -1,0 +1,21 @@
+{
+  "name": "javascript-nobuild-project-template",
+  "version": "1.0.0",
+  "description": "This is Javascript-nobuild-project-template, which mean the project in module format can be serve as is on browser and node without any build step.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "npx http-server",
+    "bundle": "npx esbuild index.js --bundle --outfile=dist/release.js",
+    "serve-release": "npx http-server -o ./dist/"
+  },
+  "type": "module",
+  "author": "nghiango1",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "0.20.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-jsdoc": "^48.2.0",
+    "http-server": "^14.1.1"
+  }
+}

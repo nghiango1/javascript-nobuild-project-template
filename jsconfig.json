@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleResolution": "Classic",
+    // Enable type checking
+    "checkJs": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "strictNullChecks": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
