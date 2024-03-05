@@ -2,11 +2,11 @@
   "name": "javascript-nobuild-project-template",
   "version": "1.0.0",
   "description": "This is Javascript-nobuild-project-template, which mean the project in module format can be serve as is on browser and node without any build step.",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.mjs",
     "serve": "npx http-server",
-    "bundle": "npx esbuild index.js --bundle --outfile=dist/release.js",
+    "bundle": "npx esbuild index.mjs --bundle --outfile=dist/release.js",
     "serve-release": "npx http-server -o ./dist/"
   },
   "type": "module",
