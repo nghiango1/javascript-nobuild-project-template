@@ -6,7 +6,7 @@
     },
     "extends": [
         "eslint:recommended",
-        "plugin:jsdoc/recommended-error"
+        "plugin:jsdoc/recommended-typescript-flavor-error"
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
