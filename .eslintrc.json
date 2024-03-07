@@ -28,6 +28,17 @@
         "semi": [
             "error",
             "always"
+        ],
+        "jsdoc/require-jsdoc": [
+            "error",
+            {
+                "require": {
+                    "ClassDeclaration": true,
+                    "MethodDefinition": true,
+                    "FunctionExpression": true,
+                    "ArrowFunctionExpression": true
+                }
+            }
         ]
     }
 }
