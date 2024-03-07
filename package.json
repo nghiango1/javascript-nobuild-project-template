@@ -7,7 +7,7 @@
     "start": "node index.mjs",
     "serve": "npx http-server",
     "bundle": "npx esbuild index.mjs --bundle --minify --sourcemap --outfile=dist/release.js",
-    "serve-release": "npx http-server -o ./dist/"
+    "serve-release": "npx http-server ./dist/"
   },
   "type": "module",
   "author": "nghiango1",
